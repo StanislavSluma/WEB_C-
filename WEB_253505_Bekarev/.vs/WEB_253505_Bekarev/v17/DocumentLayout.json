@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|d:\\sem_5\\web_c#\\web_253505_bekarev\\web_253505_bekarev\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|solutionrelative:web_253505_bekarev\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|d:\\sem_5\\web_c#\\web_253505_bekarev\\web_253505_bekarev\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|solutionrelative:web_253505_bekarev\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|d:\\sem_5\\web_c#\\web_253505_bekarev\\web_253505_bekarev\\views\\shared\\_userinfopartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|solutionrelative:web_253505_bekarev\\views\\shared\\_userinfopartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|d:\\sem_5\\web_c#\\web_253505_bekarev\\web_253505_bekarev\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|solutionrelative:web_253505_bekarev\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|d:\\sem_5\\web_c#\\web_253505_bekarev\\web_253505_bekarev\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|solutionrelative:web_253505_bekarev\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|d:\\sem_5\\web_c#\\web_253505_bekarev\\web_253505_bekarev\\viewcomponents\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|solutionrelative:web_253505_bekarev\\viewcomponents\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|d:\\sem_5\\web_c#\\web_253505_bekarev\\web_253505_bekarev\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|solutionrelative:web_253505_bekarev\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|d:\\sem_5\\web_c#\\web_253505_bekarev\\web_253505_bekarev\\views\\shared\\components\\cart\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|solutionrelative:web_253505_bekarev\\views\\shared\\components\\cart\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|d:\\sem_5\\web_c#\\web_253505_bekarev\\web_253505_bekarev\\views\\shared\\_menupartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|solutionrelative:web_253505_bekarev\\views\\shared\\_menupartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|d:\\sem_5\\web_c#\\web_253505_bekarev\\web_253505_bekarev\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|solutionrelative:web_253505_bekarev\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|d:\\sem_5\\web_c#\\web_253505_bekarev\\web_253505_bekarev\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|solutionrelative:web_253505_bekarev\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,60 +38,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 336,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Program.cs",
-              "RelativeDocumentMoniker": "WEB_253505_Bekarev\\Program.cs",
-              "ToolTip": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Program.cs",
-              "RelativeToolTip": "WEB_253505_Bekarev\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T10:46:11.006Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "WEB_253505_Bekarev\\Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "WEB_253505_Bekarev\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-02T10:42:36.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "WEB_253505_Bekarev\\Views\\_ViewStart.cshtml",
-              "ToolTip": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "WEB_253505_Bekarev\\Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-02T10:39:18.329Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WEB_253505_Bekarev\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WEB_253505_Bekarev\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAE8AAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-02T10:35:52.598Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -98,16 +54,88 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\ViewComponents\\Cart.cs",
+              "RelativeDocumentMoniker": "WEB_253505_Bekarev\\ViewComponents\\Cart.cs",
+              "ToolTip": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\ViewComponents\\Cart.cs",
+              "RelativeToolTip": "WEB_253505_Bekarev\\ViewComponents\\Cart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T14:07:11.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Views\\Shared\\Components\\Cart\\Default.cshtml",
+              "RelativeDocumentMoniker": "WEB_253505_Bekarev\\Views\\Shared\\Components\\Cart\\Default.cshtml",
+              "ToolTip": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Views\\Shared\\Components\\Cart\\Default.cshtml",
+              "RelativeToolTip": "WEB_253505_Bekarev\\Views\\Shared\\Components\\Cart\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T14:05:02.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_UserInfoPartial.cshtml",
+              "DocumentMoniker": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Views\\Shared\\_UserInfoPartial.cshtml",
+              "RelativeDocumentMoniker": "WEB_253505_Bekarev\\Views\\Shared\\_UserInfoPartial.cshtml",
+              "ToolTip": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Views\\Shared\\_UserInfoPartial.cshtml",
+              "RelativeToolTip": "WEB_253505_Bekarev\\Views\\Shared\\_UserInfoPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T13:45:11.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_MenuPartial.cshtml",
+              "DocumentMoniker": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Views\\Shared\\_MenuPartial.cshtml",
+              "RelativeDocumentMoniker": "WEB_253505_Bekarev\\Views\\Shared\\_MenuPartial.cshtml",
+              "ToolTip": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Views\\Shared\\_MenuPartial.cshtml",
+              "RelativeToolTip": "WEB_253505_Bekarev\\Views\\Shared\\_MenuPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T13:44:51.289Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WEB_253505_Bekarev\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WEB_253505_Bekarev\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-02T10:35:52.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WEB_253505_Bekarev\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WEB_253505_Bekarev\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T09:28:46.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "WEB_253505_Bekarev\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "WEB_253505_Bekarev\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-02T08:59:09.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T08:59:09.745Z"
             }
           ]
         }

@@ -1,0 +1,75 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<!DOCTYPE html>
+<html>
+<body>
+    <main class="container ms-auto">
+        <b class="fs-1">Лабораторная работа 1</b>
+        <form method="post">
+            <b class="fs-3">Форма</b>
+            <br></br>
+            <b class="fs-3">Список</b>
+            <ol class="list-group list-group-numbered">
+                <li class="list-group-item">элемент списка 0</li>
+                <li class="list-group-item">элемент списка 1</li>
+                <li class="list-group-item">элемент списка 2</li>
+                <li class="list-group-item">элемент списка 3</li>
+                <li class="list-group-item">элемент списка 4</li>
+            </ol>
+            <hr></hr>
+            <div class="row mb-3">
+                <div class="col-sm-10 offset-sm-2">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck1" name="checkbox1">
+                        <label class="form-check-label" for="gridCheck1">
+                            Чек-бокс 1
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck1" name="checkbox2">
+                        <label class="form-check-label" for="gridCheck1">
+                            Чек-бокс 2
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <fieldset class="row mb-3">
+                <div class="col-sm-10 offset-sm-2">
+                    <div class="form-check-inline">
+                        <input class="form-check-input" type="radio" name="radio" id="gridRadios1" value="option1">
+                        <label class="form-check-label" for="gridRadios1">
+                            Radio-1
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <input class="form-check-input" type="radio" name="radio" id="gridRadios2" value="option2">
+                        <label class="form-check-label" for="gridRadios2">
+                            Radio-2
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <input class="form-check-input" type="radio" name="radio" id="gridRadios3" value="option3">
+                        <label class="form-check-label" for="gridRadios3">
+                            Radio-3
+                        </label>
+                    </div>
+                </div>
+            </fieldset>
+            <div class="row mb-3">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Логин</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail3">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Пароль</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword3">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Отправить</button>
+        </form>
+    </main>
+</body>
+</html>

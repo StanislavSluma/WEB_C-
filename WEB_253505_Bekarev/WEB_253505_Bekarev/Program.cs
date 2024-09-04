@@ -1,5 +1,10 @@
+using WEB_253505_Bekarev.Extensions.HostingExtensions;
+
+
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.RegisterCustomServices();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

@@ -1,0 +1,11 @@
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev.Domain\bin\Debug\net8.0\WEB_253505_Bekarev.Domain.deps.json
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev.Domain\bin\Debug\net8.0\WEB_253505_Bekarev.Domain.dll
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev.Domain\bin\Debug\net8.0\WEB_253505_Bekarev.Domain.pdb
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev.Domain\obj\Debug\net8.0\WEB_253505_Bekarev.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev.Domain\obj\Debug\net8.0\WEB_253505_Bekarev.Domain.AssemblyInfoInputs.cache
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev.Domain\obj\Debug\net8.0\WEB_253505_Bekarev.Domain.AssemblyInfo.cs
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev.Domain\obj\Debug\net8.0\WEB_253505_Bekarev.Domain.csproj.CoreCompileInputs.cache
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev.Domain\obj\Debug\net8.0\WEB_253505_Bekarev.Domain.dll
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev.Domain\obj\Debug\net8.0\refint\WEB_253505_Bekarev.Domain.dll
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev.Domain\obj\Debug\net8.0\WEB_253505_Bekarev.Domain.pdb
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev.Domain\obj\Debug\net8.0\ref\WEB_253505_Bekarev.Domain.dll

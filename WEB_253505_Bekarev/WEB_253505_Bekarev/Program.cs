@@ -1,13 +1,15 @@
+using WEB_253505_Bekarev.ClassHelpers;
 using WEB_253505_Bekarev.Extensions.HostingExtensions;
 
 
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.RegisterCustomServices();
-
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+UriData uriData = new UriData { ApiUri = builder.Configuration.GetSection("UriData")["ApiUri"] };
+builder.RegisterCustomServices(uriData);
 
 var app = builder.Build();
 

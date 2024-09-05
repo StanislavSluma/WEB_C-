@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WEB_253505_Bekarev.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c566f4df9db4aa7d0a9d9ad8385ddc190e8a671b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c57fdda77bcf6fd0130ade4830261d11d6479ba")]
 [assembly: System.Reflection.AssemblyProductAttribute("WEB_253505_Bekarev.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WEB_253505_Bekarev.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

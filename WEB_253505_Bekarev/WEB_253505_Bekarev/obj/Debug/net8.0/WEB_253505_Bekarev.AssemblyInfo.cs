@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WEB_253505_Bekarev")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c566f4df9db4aa7d0a9d9ad8385ddc190e8a671b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4340a2919f53e19ea374f810ff5ff2b74764718a")]
 [assembly: System.Reflection.AssemblyProductAttribute("WEB_253505_Bekarev")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WEB_253505_Bekarev")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

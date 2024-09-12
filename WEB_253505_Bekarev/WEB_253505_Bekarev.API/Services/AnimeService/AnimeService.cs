@@ -15,19 +15,32 @@ namespace WEB_253505_Bekarev.API.Services.AnimeService
             _appDbContext = appDbContext;
         }
 
-        public Task<ResponseData<Anime>> CreateProductAsync(Anime product)
+        public async Task<ResponseData<Anime>> CreateProductAsync(Anime product)
         {
-            throw new NotImplementedException();
+
+            var anime = _appDbContext.Animes.Add(product);
+            await _appDbContext.SaveChangesAsync();
+            return ResponseData<Anime>.Success(anime.Entity);
         }
 
-        public Task DeleteProductAsync(int id)
+        public async Task DeleteProductAsync(int id)
         {
-            throw new NotImplementedException();
+            var anime = await _appDbContext.Animes.FirstOrDefaultAsync(a => a.Id == id);
+            if (anime != null)
+            {
+                _appDbContext.Entry(anime).State = EntityState.Deleted;
+                await _appDbContext.SaveChangesAsync();
+            }
         }
 
-        public Task<ResponseData<Anime>> GetProductByIdAsync(int id)
+        public async Task<ResponseData<Anime>> GetProductByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            var anime = await _appDbContext.Animes.FirstOrDefaultAsync(a => a.Id == id);
+            if (anime == null)
+            {
+                return ResponseData<Anime>.Error("Not Found", null);
+            }
+            return ResponseData<Anime>.Success(anime);
         }
 
         public Task<ResponseData<ListModel<Anime>>> GetProductListAsync(string? categoryNormalizedName, int pageNo = 1, int pageSize = 5)
@@ -61,10 +74,25 @@ namespace WEB_253505_Bekarev.API.Services.AnimeService
         {
             throw new NotImplementedException();
         }
-
-        public Task UpdateProductAsync(int id, Anime product)
+        
+        public async Task UpdateProductAsync(int id, Anime product)
         {
-            throw new NotImplementedException();
+            var anime = await _appDbContext.Animes.FirstOrDefaultAsync(a => a.Id == id);
+            if (anime != null)
+            {
+                anime.SeriesTime = product.SeriesTime;
+                anime.SeriesAmount = product.SeriesAmount;
+                anime.TotalTime = product.TotalTime;
+                anime.Mime = product.Mime;
+                anime.Name = product.Name;
+                anime.Description = product.Description;
+                anime.Category = product.Category;
+                anime.CategoryId = product.CategoryId;
+                if (product.Image is not null)
+                     anime.Image = product.Image;
+                _appDbContext.Entry(anime).State = EntityState.Modified;
+                await _appDbContext.SaveChangesAsync();
+            }
         }
     }
 }

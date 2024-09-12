@@ -2,17 +2,18 @@ using WEB_253505_Bekarev.ClassHelpers;
 using WEB_253505_Bekarev.Extensions.HostingExtensions;
 
 
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages();
+builder.Services.AddHttpContextAccessor();
 
 UriData uriData = new UriData { ApiUri = builder.Configuration.GetSection("UriData")["ApiUri"] };
 builder.RegisterCustomServices(uriData);
 
 var app = builder.Build();
-
+ 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
@@ -31,5 +32,7 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.MapRazorPages();
 
 app.Run();

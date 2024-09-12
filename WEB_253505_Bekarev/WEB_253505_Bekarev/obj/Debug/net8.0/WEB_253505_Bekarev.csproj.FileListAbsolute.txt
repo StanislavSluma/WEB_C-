@@ -225,3 +225,7 @@ D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\bin\Debug\net8.0\WEB_25350
 D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\bin\Debug\net8.0\WEB_253505_Bekarev.Domain.pdb
 D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\obj\Debug\net8.0\WEB_253505_Bekarev.csproj.AssemblyReference.cache
 D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\obj\Debug\net8.0\WEB_2535.7E7B7A6D.Up2Date
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll

@@ -1,16 +1,20 @@
 {
   "Files": [
     {
-      "Id": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev.API\\wwwroot\\Images\\1.jpg",
-      "PackagePath": "staticwebassets\\Images\\1.jpg"
+      "Id": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev.API\\wwwroot\\Images\\1ait5qrp.jpg",
+      "PackagePath": "staticwebassets\\Images\\1ait5qrp.jpg"
     },
     {
-      "Id": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev.API\\wwwroot\\Images\\2.jpg",
-      "PackagePath": "staticwebassets\\Images\\2.jpg"
+      "Id": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev.API\\wwwroot\\Images\\k0umwimj.jpg",
+      "PackagePath": "staticwebassets\\Images\\k0umwimj.jpg"
     },
     {
-      "Id": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev.API\\wwwroot\\Images\\3.jpg",
-      "PackagePath": "staticwebassets\\Images\\3.jpg"
+      "Id": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev.API\\wwwroot\\Images\\p3cvhb3h.jpg",
+      "PackagePath": "staticwebassets\\Images\\p3cvhb3h.jpg"
+    },
+    {
+      "Id": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev.API\\wwwroot\\Images\\v5ct0et2.jpg",
+      "PackagePath": "staticwebassets\\Images\\v5ct0et2.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WEB_253505_Bekarev.API.Microsoft.AspNetCore.StaticWebAssets.props",

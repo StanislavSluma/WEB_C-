@@ -77,16 +77,16 @@ namespace WEB_253505_Bekarev.Services.ProductService
                 new Anime()
                 {
                     Id=2, Name="Форма Голоса", Description="Интересное, грустное",
-                    SeriesAmount=1, SeriesTime=130, TotalTime=130, Image="Images/2.jpg",
+                    SeriesAmount=1, SeriesTime=130, TotalTime = 130, Image="Images/2.jpg",
                     Category=_categories.Find(x=>x.NormalizedName.Equals("drama"))
                 },
                 new Anime()
                 {
                     Id=3, Name="Патэма наоборот", Description="Интересное, неожиданность",
-                    SeriesAmount=1, SeriesTime=100, TotalTime=100, Image="Images/3.jpg",
+                    SeriesAmount=1, SeriesTime=100, TotalTime = 130,Image="Images/3.jpg",
                     Category=_categories.Find(x=>x.NormalizedName.Equals("fantasy"))
                 },
-                new Anime()
+                /*new Anime()
                 {
                     Id=4, Name="Форма Голоса", Description="Интересное, грустное",
                     SeriesAmount=1, SeriesTime=130, TotalTime=130, Image="Images/2.jpg",
@@ -139,7 +139,7 @@ namespace WEB_253505_Bekarev.Services.ProductService
                     Id=12, Name="Патэма наоборот", Description="Интересное, неожиданность",
                     SeriesAmount=1, SeriesTime=100, TotalTime=100, Image="Images/3.jpg",
                     Category=_categories.Find(x=>x.NormalizedName.Equals("fantasy"))
-                },
+                },*/
             };
         }
     }

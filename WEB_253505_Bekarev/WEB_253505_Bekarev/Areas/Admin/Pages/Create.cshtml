@@ -1,0 +1,58 @@
+﻿@page
+@model WEB_253505_Bekarev.Areas.Admin.Pages.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Anime</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Anime.Name" class="control-label"></label>
+                <input asp-for="Anime.Name" class="form-control" />
+                <span asp-validation-for="Anime.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Anime.Description" class="control-label"></label>
+                <input asp-for="Anime.Description" class="form-control" />
+                <span asp-validation-for="Anime.Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Anime.Category" class="control-label"></label>
+                <select class="form-select" asp-items="@Model.Categories" asp-for="@Model.Anime.CategoryId">
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Anime.SeriesAmount" class="control-label"></label>
+                <input asp-for="Anime.SeriesAmount" class="form-control" max="1000" min="1"/>
+                <span asp-validation-for="Anime.SeriesAmount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Anime.SeriesTime" class="control-label"></label>
+                <input asp-for="Anime.SeriesTime" class="form-control" max="180", min="5"/>
+                <span asp-validation-for="Anime.SeriesTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Image" class="control-label"></label>
+                <input asp-for="Image" type="file" class="form-control" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@* @section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+} *@

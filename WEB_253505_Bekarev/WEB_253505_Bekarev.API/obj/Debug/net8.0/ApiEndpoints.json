@@ -15,7 +15,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "WEB_253505_Bekarev.Domain.Entities.Anime",
+        "Type": "WEB_253505_Bekarev.Domain.Models.ResponseData\u00601[[WEB_253505_Bekarev.Domain.Entities.Anime, WEB_253505_Bekarev.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -51,7 +51,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[WEB_253505_Bekarev.Domain.Entities.Anime, WEB_253505_Bekarev.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "WEB_253505_Bekarev.Domain.Models.ResponseData\u00601[[WEB_253505_Bekarev.Domain.Models.ListModel\u00601[[WEB_253505_Bekarev.Domain.Entities.Anime, WEB_253505_Bekarev.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], WEB_253505_Bekarev.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -77,7 +77,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "WEB_253505_Bekarev.Domain.Entities.Anime",
+        "Type": "WEB_253505_Bekarev.Domain.Models.ResponseData\u00601[[WEB_253505_Bekarev.Domain.Entities.Anime, WEB_253505_Bekarev.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -258,6 +258,38 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "WEB_253505_Bekarev.API.Controllers.FilesController",
+    "Method": "SaveFile",
+    "RelativePath": "api/Files",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEB_253505_Bekarev.API.Controllers.FilesController",
+    "Method": "DeleteFile",
+    "RelativePath": "api/Files",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file_name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "WEB_253505_Bekarev.API.Controllers.WeatherForecastController",

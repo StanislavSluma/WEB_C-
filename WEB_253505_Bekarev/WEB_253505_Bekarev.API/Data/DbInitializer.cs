@@ -39,7 +39,7 @@ namespace WEB_253505_Bekarev.API.Data
                     SeriesAmount=1, SeriesTime=100, TotalTime=100, Image=$"{ImagePath}Images/3.jpg",
                     Category=_categories.Find(x=>x.NormalizedName.Equals("fantasy"))
                 },
-                new Anime()
+                /*new Anime()
                 {
                     Name="Форма Голоса", Description="Интересное, грустное",
                     SeriesAmount=1, SeriesTime=130, TotalTime=130, Image=$"{ImagePath}Images/2.jpg",
@@ -92,18 +92,18 @@ namespace WEB_253505_Bekarev.API.Data
                     Name="Патэма наоборот", Description="Интересное, неожиданность",
                     SeriesAmount=1, SeriesTime=100, TotalTime=100, Image=$"{ImagePath}Images/3.jpg",
                     Category=_categories.Find(x=>x.NormalizedName.Equals("fantasy"))
-                }
+                }*/
             };
 
             using var scope = app.Services.CreateScope();
 
             var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
 
-            //dbContext.Database.EnsureDeleted();
+            //dbContext.Database.EnsureCreated();
 
             if (dbContext.Database.GetPendingMigrations().Any())
             {
-                dbContext.Database.Migrate();
+               dbContext.Database.Migrate();
             }
 
             dbContext.Categories.AddRange(_categories);

@@ -17,7 +17,7 @@ namespace WEB_253505_Bekarev.API.Services.AnimeService
 
         public async Task<ResponseData<Anime>> CreateProductAsync(Anime product)
         {
-
+            product.Category = _appDbContext.Categories.FirstOrDefault(x => x.Id == int.Parse(product.CategoryId));
             var anime = _appDbContext.Animes.Add(product);
             await _appDbContext.SaveChangesAsync();
             return ResponseData<Anime>.Success(anime.Entity);
@@ -36,6 +36,12 @@ namespace WEB_253505_Bekarev.API.Services.AnimeService
         public async Task<ResponseData<Anime>> GetProductByIdAsync(int id)
         {
             var anime = await _appDbContext.Animes.FirstOrDefaultAsync(a => a.Id == id);
+            if (anime.Category == null)
+            {
+                anime.Category = _appDbContext.Categories.FirstOrDefault(x => x.Id == int.Parse(anime.CategoryId));
+				_appDbContext.Entry(anime).State = EntityState.Modified;
+				await _appDbContext.SaveChangesAsync();
+			}
             if (anime == null)
             {
                 return ResponseData<Anime>.Error("Not Found", null);

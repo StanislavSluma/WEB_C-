@@ -4,7 +4,6 @@
 @{
     ViewData["Title"] = "Index";
 }
-
 <h1>Index</h1>
 
 <p>
@@ -38,35 +37,37 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model.Anime.Items) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CategoryId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SeriesAmount)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SeriesTime)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TotalTime)
-            </td>
-            <td>
-                <img src="@item.Image" height="200" class="card-img-top">
-            </td>
-            <td>
-                    <a class="btn btn-warning" role="button" asp-page="./Edit" asp-route-id="@item.Id"><i class="fas fa-edit"></i> Edit</a>
-                    <a class="btn btn-info" role="button" asp-page="./Details" asp-route-id="@item.Id"><i class="fas fa-info"></i> Details</a>
-                    <a class="btn btn-danger" role="button" asp-page="./Delete" asp-route-id="@item.Id"><i class="fas fa-trash"></i> Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model.Anime.Items)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Category.NormalizedName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SeriesAmount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SeriesTime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TotalTime)
+                </td>
+                <td>
+                    <img src="@item.Image" height="200" class="card-img-top">
+                </td>
+                <td>
+                        <a class="btn btn-warning" role="button" asp-page="./Edit" asp-route-id="@item.Id"><i class="fas fa-edit"></i> Edit</a>
+                        <a class="btn btn-info" role="button" asp-page="./Details" asp-route-id="@item.Id"><i class="fas fa-info"></i> Details</a>
+                        <a class="btn btn-danger" role="button" asp-page="./Delete" asp-route-id="@item.Id"><i class="fas fa-trash"></i> Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
+    <Pager current-page="@Model.TotalPages" total-pages="@Model.TotalPages" admin="true"></Pager>
 </table>

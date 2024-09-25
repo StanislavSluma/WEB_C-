@@ -229,3 +229,12 @@ D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\bin\Debug\net8.0\Microsoft
 D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

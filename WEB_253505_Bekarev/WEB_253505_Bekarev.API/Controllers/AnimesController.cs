@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -33,6 +34,7 @@ namespace WEB_253505_Bekarev.API.Controllers
 
         // GET: api/Animes/5
         [HttpGet("{id:int}")]
+        [Authorize(Policy = "admin")]
         public async Task<ActionResult<ResponseData<Anime>>> GetAnime(int id)
         {
             return Ok(await _animeService.GetProductByIdAsync(id));
@@ -41,6 +43,7 @@ namespace WEB_253505_Bekarev.API.Controllers
         // PUT: api/Animes/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
+        [Authorize(Policy = "admin")]
         public async Task<IActionResult> PutAnime(int id, Anime anime)
         {
             await _animeService.UpdateProductAsync(id, anime);
@@ -50,6 +53,7 @@ namespace WEB_253505_Bekarev.API.Controllers
         // POST: api/Animes
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
+        [Authorize(Policy = "admin")]
         public async Task<ActionResult<ResponseData<Anime>>> PostAnime(Anime anime)
         {
             return Ok(await _animeService.CreateProductAsync(anime));
@@ -57,6 +61,7 @@ namespace WEB_253505_Bekarev.API.Controllers
 
         // DELETE: api/Animes/5
         [HttpDelete("{id}")]
+        [Authorize(Policy = "admin")]
         public async Task<IActionResult> DeleteAnime(int id)
         {
             await _animeService.DeleteProductAsync(id);

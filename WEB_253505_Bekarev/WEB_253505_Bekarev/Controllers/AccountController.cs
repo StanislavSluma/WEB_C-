@@ -1,83 +1,59 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authentication.OpenIdConnect;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using WEB_253505_Bekarev.Models;
+using WEB_253505_Bekarev.Services.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace WEB_253505_Bekarev.Controllers
 {
     public class AccountController : Controller
     {
-        // GET: AccountController
-        public ActionResult Index()
+        public IActionResult Register()
         {
-            return View();
+            return View(new RegisterUserViewModel());
         }
 
-        // GET: AccountController/Details/5
-        public ActionResult Details(int id)
+        public async Task Login()
         {
-            return View();
+            await HttpContext.ChallengeAsync(OpenIdConnectDefaults.AuthenticationScheme,
+                new AuthenticationProperties
+                {
+                    RedirectUri = Url.Action("Index", "Home")
+                });
         }
 
-        // GET: AccountController/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: AccountController/Create
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        [AutoValidateAntiforgeryToken]
+        public async Task<IActionResult> Register(RegisterUserViewModel user, [FromServices] IAuthService authService)
         {
-            try
+            if (ModelState.IsValid)
             {
-                return RedirectToAction(nameof(Index));
+                if (user == null)
+                {
+                    return BadRequest();
+                }
+
+                var result = await authService.RegisterUserAsync(user.Email, user.Password, user.Avatar);
+                if (result.Result)
+                {
+                    return Redirect(Url.Action("Index", "Home"));
+                }
+                else return BadRequest(result.ErrorMessage);
             }
-            catch
-            {
-                return View();
-            }
+            return View(user);
         }
 
-        // GET: AccountController/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: AccountController/Edit/5
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public async Task Logout()
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: AccountController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: AccountController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            await HttpContext.SignOutAsync(OpenIdConnectDefaults.AuthenticationScheme,
+                new AuthenticationProperties
+                {
+                    RedirectUri = Url.Action("Index", "Home")
+                });
         }
     }
 }

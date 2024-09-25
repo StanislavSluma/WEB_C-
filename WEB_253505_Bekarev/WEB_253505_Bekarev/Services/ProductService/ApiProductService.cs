@@ -4,6 +4,7 @@ using System.Text;
 using System.Text.Json;
 using WEB_253505_Bekarev.Domain.Entities;
 using WEB_253505_Bekarev.Domain.Models;
+using WEB_253505_Bekarev.Services.Authentication;
 using WEB_253505_Bekarev.Services.FileService;
 
 namespace WEB_253505_Bekarev.Services.ProductService
@@ -15,9 +16,12 @@ namespace WEB_253505_Bekarev.Services.ProductService
         private readonly JsonSerializerOptions _serializerOptions;
         private readonly ILogger<ApiProductService> _logger;
 
+        private readonly ITokenAccessor _tokenAccessor;
+
         private readonly IFileService _fileService;
 
-        public ApiProductService(HttpClient httpClient, IConfiguration configuration, ILogger<ApiProductService> logger, IFileService fileService)
+        public ApiProductService(HttpClient httpClient, IConfiguration configuration, ILogger<ApiProductService> logger, 
+            IFileService fileService, ITokenAccessor tokenAccessor)
         {
             _httpClient = httpClient;
             _pageSize = configuration.GetSection("ItemsPerPage").Value;
@@ -27,6 +31,7 @@ namespace WEB_253505_Bekarev.Services.ProductService
             };
             _logger = logger;
             _fileService = fileService;
+            _tokenAccessor = tokenAccessor;
         }
 
         public async Task<ResponseData<ListModel<Anime>>> GetProductListAsync(string? categoryNormalizedName, int pageNo = 1)
@@ -52,6 +57,7 @@ namespace WEB_253505_Bekarev.Services.ProductService
                 urlString.Append($"&pageSize={_pageSize}");
             }
             // отправить запрос к API
+            await _tokenAccessor.SetAuthorizationHeaderAsync(_httpClient);
             var response = await _httpClient.GetAsync(new Uri(urlString.ToString()));
 
             if (response.IsSuccessStatusCode)
@@ -74,6 +80,8 @@ namespace WEB_253505_Bekarev.Services.ProductService
         {
             Anime anime = (await GetProductByIdAsync(id)).Data;
             var uri = new Uri(_httpClient.BaseAddress.AbsoluteUri + $"Animes/{id}");
+
+            await _tokenAccessor.SetAuthorizationHeaderAsync(_httpClient);
             await _httpClient.DeleteAsync(uri);
             await _fileService.DeleteFileAsync(anime.Image);
             return;
@@ -86,6 +94,7 @@ namespace WEB_253505_Bekarev.Services.ProductService
 
             urlString.Append($"{id}");
 
+            await _tokenAccessor.SetAuthorizationHeaderAsync(_httpClient);
             var response = await _httpClient.GetAsync(new Uri(urlString.ToString()));
 
             if (response.IsSuccessStatusCode)
@@ -117,6 +126,8 @@ namespace WEB_253505_Bekarev.Services.ProductService
                     product.Image = imageUrl;
             }
             var uri = new Uri(_httpClient.BaseAddress.AbsoluteUri + "Animes");
+
+            await _tokenAccessor.SetAuthorizationHeaderAsync(_httpClient);
             var response = await _httpClient.PostAsJsonAsync(uri, product, _serializerOptions);
             if (response.IsSuccessStatusCode)
             {
@@ -137,6 +148,8 @@ namespace WEB_253505_Bekarev.Services.ProductService
                     product.Image = imageUrl;
             }
             var uri = new Uri($"{_httpClient.BaseAddress}Animes/{id}");
+
+            await _tokenAccessor.SetAuthorizationHeaderAsync(_httpClient);
             var response = await _httpClient.PutAsJsonAsync(uri, product, _serializerOptions);
             if (!response.IsSuccessStatusCode)
             {

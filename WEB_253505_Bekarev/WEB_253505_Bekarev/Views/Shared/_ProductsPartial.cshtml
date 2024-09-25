@@ -1,0 +1,31 @@
+﻿@{
+    
+}
+<div class="container mt-3" id="catalog">
+    <div class="row row-cols-1 row-cols-md-5 g-4">
+        @foreach (var item in Model.Products)
+        {
+            <div class="col">
+                <div class="card">
+                    <img src="@item.Image" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Name</h5>
+                        <p class="card-text">@item.Description</p>
+                        <div class="bg-light">
+                            <p>Серий: @item.SeriesAmount</p>
+                        </div>
+                        <button>
+                            <a class="nav-item nav-link" asp-action="Add" asp-controller="Cart" asp-route-Id="@item.Id" asp-route-returnUrl="@Model.ReturnUrl">
+                                Add to cart <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+    <div class="row">
+        <Pager current-page="@Model.CurrentPage" total-pages="@Model.TotalPages" category="@Model.CurrentCategory"></Pager>
+    </div>
+</div>
+

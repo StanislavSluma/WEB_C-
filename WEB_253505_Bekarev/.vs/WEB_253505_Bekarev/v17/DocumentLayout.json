@@ -1,52 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|d:\\sem_5\\web_c#\\web_253505_bekarev\\web_253505_bekarev\\areas\\admin\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|solutionrelative:web_253505_bekarev\\areas\\admin\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E83E3E03-5581-4952-884C-AFB8C4BF1EAF}|WEB_253505_Bekarev.API\\WEB_253505_Bekarev.API.csproj|d:\\sem_5\\web_c#\\web_253505_bekarev\\web_253505_bekarev.api\\controllers\\animescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E83E3E03-5581-4952-884C-AFB8C4BF1EAF}|WEB_253505_Bekarev.API\\WEB_253505_Bekarev.API.csproj|solutionrelative:web_253505_bekarev.api\\controllers\\animescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|d:\\sem_5\\web_c#\\web_253505_bekarev\\web_253505_bekarev\\services\\productservice\\apiproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|solutionrelative:web_253505_bekarev\\services\\productservice\\apiproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|d:\\sem_5\\web_c#\\web_253505_bekarev\\web_253505_bekarev\\services\\fileservice\\apifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|solutionrelative:web_253505_bekarev\\services\\fileservice\\apifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|d:\\sem_5\\web_c#\\web_253505_bekarev\\web_253505_bekarev\\areas\\admin\\pages\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|solutionrelative:web_253505_bekarev\\areas\\admin\\pages\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|d:\\sem_5\\web_c#\\web_253505_bekarev\\web_253505_bekarev\\areas\\admin\\pages\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|solutionrelative:web_253505_bekarev\\areas\\admin\\pages\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|d:\\sem_5\\web_c#\\web_253505_bekarev\\web_253505_bekarev\\areas\\admin\\pages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|solutionrelative:web_253505_bekarev\\areas\\admin\\pages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|d:\\sem_5\\web_c#\\web_253505_bekarev\\web_253505_bekarev\\areas\\admin\\pages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|solutionrelative:web_253505_bekarev\\areas\\admin\\pages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|d:\\sem_5\\web_c#\\web_253505_bekarev\\web_253505_bekarev\\areas\\admin\\pages\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|solutionrelative:web_253505_bekarev\\areas\\admin\\pages\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E83E3E03-5581-4952-884C-AFB8C4BF1EAF}|WEB_253505_Bekarev.API\\WEB_253505_Bekarev.API.csproj|d:\\sem_5\\web_c#\\web_253505_bekarev\\web_253505_bekarev.api\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E83E3E03-5581-4952-884C-AFB8C4BF1EAF}|WEB_253505_Bekarev.API\\WEB_253505_Bekarev.API.csproj|solutionrelative:web_253505_bekarev.api\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|d:\\sem_5\\web_c#\\web_253505_bekarev\\web_253505_bekarev\\extensions\\hostingextensions\\hostingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9AADF72-0EBF-4822-A400-D596A01DF750}|WEB_253505_Bekarev\\WEB_253505_Bekarev.csproj|solutionrelative:web_253505_bekarev\\extensions\\hostingextensions\\hostingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -54,99 +9,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 336,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Areas\\Admin\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "WEB_253505_Bekarev\\Areas\\Admin\\Pages\\Index.cshtml",
-              "ToolTip": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Areas\\Admin\\Pages\\Index.cshtml",
-              "RelativeToolTip": "WEB_253505_Bekarev\\Areas\\Admin\\Pages\\Index.cshtml",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAADsAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-12T09:53:43.119Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApiFileService.cs",
-              "DocumentMoniker": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Services\\FileService\\ApiFileService.cs",
-              "RelativeDocumentMoniker": "WEB_253505_Bekarev\\Services\\FileService\\ApiFileService.cs",
-              "ToolTip": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Services\\FileService\\ApiFileService.cs",
-              "RelativeToolTip": "WEB_253505_Bekarev\\Services\\FileService\\ApiFileService.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAgwDYAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T09:46:39.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Areas\\Admin\\Pages\\Details.cshtml",
-              "RelativeDocumentMoniker": "WEB_253505_Bekarev\\Areas\\Admin\\Pages\\Details.cshtml",
-              "ToolTip": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Areas\\Admin\\Pages\\Details.cshtml",
-              "RelativeToolTip": "WEB_253505_Bekarev\\Areas\\Admin\\Pages\\Details.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAC8AAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-12T09:23:55.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Create.cshtml.cs",
-              "DocumentMoniker": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Areas\\Admin\\Pages\\Create.cshtml.cs",
-              "RelativeDocumentMoniker": "WEB_253505_Bekarev\\Areas\\Admin\\Pages\\Create.cshtml.cs",
-              "ToolTip": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Areas\\Admin\\Pages\\Create.cshtml.cs",
-              "RelativeToolTip": "WEB_253505_Bekarev\\Areas\\Admin\\Pages\\Create.cshtml.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACsAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T09:15:34.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Areas\\Admin\\Pages\\Create.cshtml",
-              "RelativeDocumentMoniker": "WEB_253505_Bekarev\\Areas\\Admin\\Pages\\Create.cshtml",
-              "ToolTip": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Areas\\Admin\\Pages\\Create.cshtml",
-              "RelativeToolTip": "WEB_253505_Bekarev\\Areas\\Admin\\Pages\\Create.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-12T09:14:54.043Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Edit.cshtml.cs",
-              "DocumentMoniker": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Areas\\Admin\\Pages\\Edit.cshtml.cs",
-              "RelativeDocumentMoniker": "WEB_253505_Bekarev\\Areas\\Admin\\Pages\\Edit.cshtml.cs",
-              "ToolTip": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Areas\\Admin\\Pages\\Edit.cshtml.cs",
-              "RelativeToolTip": "WEB_253505_Bekarev\\Areas\\Admin\\Pages\\Edit.cshtml.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAkwDgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T09:06:20.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Areas\\Admin\\Pages\\Edit.cshtml",
-              "RelativeDocumentMoniker": "WEB_253505_Bekarev\\Areas\\Admin\\Pages\\Edit.cshtml",
-              "ToolTip": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Areas\\Admin\\Pages\\Edit.cshtml",
-              "RelativeToolTip": "WEB_253505_Bekarev\\Areas\\Admin\\Pages\\Edit.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACkAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-12T09:06:19.297Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -158,58 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApiProductService.cs",
-              "DocumentMoniker": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Services\\ProductService\\ApiProductService.cs",
-              "RelativeDocumentMoniker": "WEB_253505_Bekarev\\Services\\ProductService\\ApiProductService.cs",
-              "ToolTip": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Services\\ProductService\\ApiProductService.cs",
-              "RelativeToolTip": "WEB_253505_Bekarev\\Services\\ProductService\\ApiProductService.cs",
-              "ViewState": "AQIAAHkAAAAAAAAAAADwv4oAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T16:49:05.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AnimesController.cs",
-              "DocumentMoniker": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev.API\\Controllers\\AnimesController.cs",
-              "RelativeDocumentMoniker": "WEB_253505_Bekarev.API\\Controllers\\AnimesController.cs",
-              "ToolTip": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev.API\\Controllers\\AnimesController.cs",
-              "RelativeToolTip": "WEB_253505_Bekarev.API\\Controllers\\AnimesController.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAwC0AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T16:54:45.288Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FilesController.cs",
-              "DocumentMoniker": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev.API\\Controllers\\FilesController.cs",
-              "RelativeDocumentMoniker": "WEB_253505_Bekarev.API\\Controllers\\FilesController.cs",
-              "ToolTip": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev.API\\Controllers\\FilesController.cs",
-              "RelativeToolTip": "WEB_253505_Bekarev.API\\Controllers\\FilesController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwBEAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T16:59:15.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "HostingExtensions.cs",
-              "DocumentMoniker": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Extensions\\HostingExtensions\\HostingExtensions.cs",
-              "RelativeDocumentMoniker": "WEB_253505_Bekarev\\Extensions\\HostingExtensions\\HostingExtensions.cs",
-              "ToolTip": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\Extensions\\HostingExtensions\\HostingExtensions.cs",
-              "RelativeToolTip": "WEB_253505_Bekarev\\Extensions\\HostingExtensions\\HostingExtensions.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAUwBAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T08:34:11.532Z",
-              "EditorCaption": ""
             }
           ]
         }

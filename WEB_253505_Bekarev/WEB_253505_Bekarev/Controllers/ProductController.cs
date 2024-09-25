@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WEB_253505_Bekarev.Domain.Entities;
+using WEB_253505_Bekarev.Extensions.HostingExtensions;
 using WEB_253505_Bekarev.Services.CategoryService;
 using WEB_253505_Bekarev.Services.ProductService;
 
@@ -21,8 +22,24 @@ namespace WEB_253505_Bekarev.Controllers
             var productResponse = await _productService.GetProductListAsync(category, pageNo);
             if (!productResponse.Successfull)
                 return NotFound(productResponse.ErrorMessage);
-            ViewBag.Categories = (await _categoryService.GetCategoryListAsync()).Data;
+            var categories = (await _categoryService.GetCategoryListAsync()).Data;
+            ViewBag.Categories = categories;
             ViewData["current_category"] = (await _categoryService.FromNormalizedNameAsync(category)).Data;
+
+            if (Request.IsAjaxRequest())
+            {
+                return PartialView("_ProductsPartial", new
+                {
+                    CurrentCategory = category,
+                    Categories = categories,
+                    Products = productResponse.Data!.Items,
+                    ReturnUrl = Request.Path + Request.QueryString.ToUriComponent(),
+                    CurrentPage = productResponse.Data.CurrentPage,
+                    TotalPages = productResponse.Data.TotalPages,
+                    Admin = false
+                });
+            }
+
             return View(productResponse.Data);
 
         }

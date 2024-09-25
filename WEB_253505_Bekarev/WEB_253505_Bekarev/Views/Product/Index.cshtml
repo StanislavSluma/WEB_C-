@@ -1,11 +1,11 @@
 ﻿@model ListModel<Anime>
 @{
     ViewData["Title"] = "Index";
+    var categories = ViewBag.Categories;
+    var current_cat = ViewData["current_category"];
     var request = ViewContext.HttpContext.Request;
     var current_category = request.Query["category"];
     var returnUrl = request.Path + request.QueryString.ToUriComponent();
-    var categories = ViewBag.Categories;
-    var current_cat = ViewData["current_category"];
 }
 
 <h1>Добро пожаловать!</h1>
@@ -22,46 +22,15 @@
     </ul>
 </div>
 <body>
-    <div class="row row-cols-1 row-cols-md-5 g-4">
-        @foreach (var item in Model.Items)
+    @{
+        await Html.RenderPartialAsync("_ProductsPartial", new
         {
-            <div class="col">
-                <div class="card">
-                    <img src="@item.Image" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">@item.Name</h5>
-                        <p class="card-text">@item.Description</p>
-                        <div class="bg-light">
-                            <p>Серий: @item.SeriesAmount</p>
-                        </div>
-                        <button>
-                            <a class="nav-item nav-link" asp-action="Add" asp-controller="Cart" asp-route-Id="@item.Id" asp-route-returnUrl="@returnUrl" >
-                                Add to cart <i class="fa-solid fa-cart-shopping"></i>
-                            </a>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        }
-    </div>
-    <nav aria-label="Page navigation example">
-        <ul class="pagination">
-            <li class="page-item">
-                <a class="page-link" aria-label="Previous" asp-action="index" asp-controller="product" asp-route-pageNo="@(Model.CurrentPage==1?Model.TotalPages:Model.CurrentPage-1)" asp-route-category=@current_category>
-                    <span aria-hidden="true">&laquo;</span>
-                </a>
-            </li>
-            @for(int i = 1; i <= Model.TotalPages; i++)
-            {
-                <li class="page-item @(i==Model.CurrentPage?"active":"")">
-                    <a class="page-link" asp-controller="product" asp-action="index" asp-route-pageNo="@i" asp-route-category=@current_category>
-                    @i
-                    </a></li>
-            }
-            <a class="page-link" aria-label="Next" asp-route-pageNo="@(Model.CurrentPage==Model.TotalPages?1:Model.CurrentPage+1)" asp-route-category=@current_category>
-                    <span aria-hidden="true">&raquo;</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
+            CurrentCategory = current_category,
+            ReturnUrl = returnUrl,
+            CurrentPage = Model.CurrentPage,
+            TotalPages = Model.TotalPages,
+            Products = Model.Items,
+            Admin = false
+        });
+    }
 </body>

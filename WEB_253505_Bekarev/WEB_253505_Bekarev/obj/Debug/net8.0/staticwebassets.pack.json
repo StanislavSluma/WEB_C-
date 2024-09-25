@@ -1,18 +1,6 @@
 {
   "Files": [
     {
-      "Id": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\wwwroot\\Images\\1.jpg",
-      "PackagePath": "staticwebassets\\Images\\1.jpg"
-    },
-    {
-      "Id": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\wwwroot\\Images\\2.jpg",
-      "PackagePath": "staticwebassets\\Images\\2.jpg"
-    },
-    {
-      "Id": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\wwwroot\\Images\\3.jpg",
-      "PackagePath": "staticwebassets\\Images\\3.jpg"
-    },
-    {
       "Id": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

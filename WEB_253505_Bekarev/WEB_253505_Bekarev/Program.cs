@@ -45,7 +45,12 @@ builder.Services
 
 builder.Services.AddHttpContextAccessor();
 
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession();
+
 var app = builder.Build();
+
+app.UseSession();
  
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

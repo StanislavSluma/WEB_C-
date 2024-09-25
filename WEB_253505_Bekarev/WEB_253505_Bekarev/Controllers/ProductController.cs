@@ -7,6 +7,7 @@ using WEB_253505_Bekarev.Services.ProductService;
 
 namespace WEB_253505_Bekarev.Controllers
 {
+    [Route("Catalog/{category?}")]
     public class ProductController : Controller
     {
         ICategoryService _categoryService;
@@ -17,6 +18,7 @@ namespace WEB_253505_Bekarev.Controllers
             _productService = product_service;
         }
         // GET: ProductController
+        [HttpGet]
         public async Task<IActionResult> Index(string? category = null, int pageNo = 1)
         {
             var productResponse = await _productService.GetProductListAsync(category, pageNo);
@@ -45,72 +47,11 @@ namespace WEB_253505_Bekarev.Controllers
         }
 
         // GET: ProductController/Details/5
+        [HttpGet("{id:int}")]
         public ActionResult Details(int id)
         {
             return View();
         }
-
-        // GET: ProductController/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: ProductController/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: ProductController/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: ProductController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: ProductController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: ProductController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
+   
     }
 }

@@ -17,7 +17,8 @@ namespace WEB_253505_Bekarev.Controllers
 
         public async Task Login()
         {
-            await HttpContext.ChallengeAsync(OpenIdConnectDefaults.AuthenticationScheme,
+			HttpContext.Session.Clear();
+			await HttpContext.ChallengeAsync(OpenIdConnectDefaults.AuthenticationScheme,
                 new AuthenticationProperties
                 {
                     RedirectUri = Url.Action("Index", "Home")
@@ -28,7 +29,8 @@ namespace WEB_253505_Bekarev.Controllers
         [AutoValidateAntiforgeryToken]
         public async Task<IActionResult> Register(RegisterUserViewModel user, [FromServices] IAuthService authService)
         {
-            if (ModelState.IsValid)
+			HttpContext.Session.Clear();
+			if (ModelState.IsValid)
             {
                 if (user == null)
                 {
@@ -48,6 +50,7 @@ namespace WEB_253505_Bekarev.Controllers
         [HttpPost]
         public async Task Logout()
         {
+            HttpContext.Session.Clear();
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             await HttpContext.SignOutAsync(OpenIdConnectDefaults.AuthenticationScheme,
                 new AuthenticationProperties

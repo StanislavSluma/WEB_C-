@@ -34,7 +34,6 @@ namespace WEB_253505_Bekarev.API.Controllers
 
         // GET: api/Animes/5
         [HttpGet("{id:int}")]
-        [Authorize(Policy = "admin")]
         public async Task<ActionResult<ResponseData<Anime>>> GetAnime(int id)
         {
             return Ok(await _animeService.GetProductByIdAsync(id));

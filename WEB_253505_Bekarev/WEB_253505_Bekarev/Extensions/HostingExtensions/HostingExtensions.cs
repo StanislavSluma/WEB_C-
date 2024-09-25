@@ -1,5 +1,7 @@
 ﻿using WEB_253505_Bekarev.ClassHelpers;
+using WEB_253505_Bekarev.Domain.Entities;
 using WEB_253505_Bekarev.Services.Authentication;
+using WEB_253505_Bekarev.Services.CartService;
 using WEB_253505_Bekarev.Services.CategoryService;
 using WEB_253505_Bekarev.Services.FileService;
 using WEB_253505_Bekarev.Services.ProductService;
@@ -15,8 +17,11 @@ namespace WEB_253505_Bekarev.Extensions.HostingExtensions
             builder.Services.AddHttpClient<IProductService, ApiProductService>(opt=>opt.BaseAddress = new Uri(uriData.ApiUri));
             builder.Services.AddHttpClient<ICategoryService, ApiCategoryService>(opt => opt.BaseAddress = new Uri(uriData.ApiUri));
             builder.Services.AddHttpClient<IFileService, ApiFileService>(opt =>opt.BaseAddress = new Uri($"{uriData.ApiUri}Files"));
+            
             builder.Services.Configure<KeycloakData>(builder.Configuration.GetSection("Keycloak"));
             builder.Services.AddHttpClient<ITokenAccessor, KeycloakTokenAccessor>();
+            builder.Services.AddHttpClient<IAuthService, KeycloakAuthService>();
+            builder.Services.AddScoped<Cart>(sp => SessionCart.GetCart(sp));
         }
     }
 }

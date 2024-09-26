@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WEB_Bekarev_253505.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a2bdb6290f333bd5a683e1b0ce7e614bbc3c92d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d68078fc00625a09ff6faae83ba8819e1e74a10c")]
 [assembly: System.Reflection.AssemblyProductAttribute("WEB_Bekarev_253505.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WEB_Bekarev_253505.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

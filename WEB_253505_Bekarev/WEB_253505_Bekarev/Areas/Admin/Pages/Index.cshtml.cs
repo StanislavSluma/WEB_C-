@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Newtonsoft.Json.Linq;
@@ -12,6 +13,7 @@ using WEB_253505_Bekarev.Services.ProductService;
 
 namespace WEB_253505_Bekarev.Areas.Admin.Pages
 {
+    [Authorize(Policy = "admin")]
     public class IndexModel : PageModel
     {
         private readonly IProductService _context;

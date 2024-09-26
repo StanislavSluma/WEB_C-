@@ -238,3 +238,12 @@ D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\obj\Debug\net8.0\refint\WE
 D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\obj\Debug\net8.0\WEB_253505_Bekarev.pdb
 D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\obj\Debug\net8.0\WEB_253505_Bekarev.genruntimeconfig.cache
 D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\obj\Debug\net8.0\ref\WEB_253505_Bekarev.dll
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\bin\Debug\net8.0\Serilog.dll
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\bin\Debug\net8.0\Serilog.AspNetCore.dll
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+D:\sem_5\WEB_C#\WEB_253505_Bekarev\WEB_253505_Bekarev\bin\Debug\net8.0\Serilog.Sinks.File.dll

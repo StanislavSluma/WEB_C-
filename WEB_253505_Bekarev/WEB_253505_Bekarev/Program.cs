@@ -1,9 +1,11 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.IdentityModel.Protocols.OpenIdConnect;
+using Serilog;
 using System.Configuration;
 using WEB_253505_Bekarev.ClassHelpers;
 using WEB_253505_Bekarev.Extensions.HostingExtensions;
+using WEB_253505_Bekarev.Middleware;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -42,11 +44,20 @@ builder.Services
                 options.MetadataAddress =
                 $"{keycloakData.Host}/realms/{keycloakData.Realm}/.well-known/openid-configuration";
             });
+builder.Services.AddAuthorization(opt =>
+{
+	opt.AddPolicy("admin", p => p.RequireRole("POWER-USER"));
+});
 
 builder.Services.AddHttpContextAccessor();
 
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession();
+
+builder.Host.UseSerilog((context, configuration) =>
+{
+    configuration.ReadFrom.Configuration(context.Configuration);
+});
 
 var app = builder.Build();
 
@@ -72,5 +83,8 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.MapRazorPages();
+
+app.UseRequestLogginMiddleware();
+app.UseSerilogRequestLogging();
 
 app.Run();

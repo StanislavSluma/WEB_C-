@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WEB_253505_Bekarev.Blazor.SSR.props" />
+</Project>

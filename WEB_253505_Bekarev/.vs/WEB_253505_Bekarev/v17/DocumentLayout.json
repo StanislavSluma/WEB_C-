@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA8E8120-DFE4-47FA-9D05-97EBFBB448CC}|WEB_253505_Bekarev.Blazor.SSR\\WEB_253505_Bekarev.Blazor.SSR.csproj|d:\\sem_5\\web_c#\\web_253505_bekarev\\web_253505_bekarev.blazor.ssr\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA8E8120-DFE4-47FA-9D05-97EBFBB448CC}|WEB_253505_Bekarev.Blazor.SSR\\WEB_253505_Bekarev.Blazor.SSR.csproj|solutionrelative:web_253505_bekarev.blazor.ssr\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA8E8120-DFE4-47FA-9D05-97EBFBB448CC}|WEB_253505_Bekarev.Blazor.SSR\\WEB_253505_Bekarev.Blazor.SSR.csproj|d:\\sem_5\\web_c#\\web_253505_bekarev\\web_253505_bekarev.blazor.ssr\\models\\countermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA8E8120-DFE4-47FA-9D05-97EBFBB448CC}|WEB_253505_Bekarev.Blazor.SSR\\WEB_253505_Bekarev.Blazor.SSR.csproj|solutionrelative:web_253505_bekarev.blazor.ssr\\models\\countermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA8E8120-DFE4-47FA-9D05-97EBFBB448CC}|WEB_253505_Bekarev.Blazor.SSR\\WEB_253505_Bekarev.Blazor.SSR.csproj|d:\\sem_5\\web_c#\\web_253505_bekarev\\web_253505_bekarev.blazor.ssr\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA8E8120-DFE4-47FA-9D05-97EBFBB448CC}|WEB_253505_Bekarev.Blazor.SSR\\WEB_253505_Bekarev.Blazor.SSR.csproj|solutionrelative:web_253505_bekarev.blazor.ssr\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA8E8120-DFE4-47FA-9D05-97EBFBB448CC}|WEB_253505_Bekarev.Blazor.SSR\\WEB_253505_Bekarev.Blazor.SSR.csproj|d:\\sem_5\\web_c#\\web_253505_bekarev\\web_253505_bekarev.blazor.ssr\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA8E8120-DFE4-47FA-9D05-97EBFBB448CC}|WEB_253505_Bekarev.Blazor.SSR\\WEB_253505_Bekarev.Blazor.SSR.csproj|solutionrelative:web_253505_bekarev.blazor.ssr\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA8E8120-DFE4-47FA-9D05-97EBFBB448CC}|WEB_253505_Bekarev.Blazor.SSR\\WEB_253505_Bekarev.Blazor.SSR.csproj|d:\\sem_5\\web_c#\\web_253505_bekarev\\web_253505_bekarev.blazor.ssr\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA8E8120-DFE4-47FA-9D05-97EBFBB448CC}|WEB_253505_Bekarev.Blazor.SSR\\WEB_253505_Bekarev.Blazor.SSR.csproj|solutionrelative:web_253505_bekarev.blazor.ssr\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA8E8120-DFE4-47FA-9D05-97EBFBB448CC}|WEB_253505_Bekarev.Blazor.SSR\\WEB_253505_Bekarev.Blazor.SSR.csproj|d:\\sem_5\\web_c#\\web_253505_bekarev\\web_253505_bekarev.blazor.ssr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA8E8120-DFE4-47FA-9D05-97EBFBB448CC}|WEB_253505_Bekarev.Blazor.SSR\\WEB_253505_Bekarev.Blazor.SSR.csproj|solutionrelative:web_253505_bekarev.blazor.ssr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +34,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 336,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev.Blazor.SSR\\Components\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "WEB_253505_Bekarev.Blazor.SSR\\Components\\Pages\\Counter.razor",
+              "ToolTip": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev.Blazor.SSR\\Components\\Pages\\Counter.razor",
+              "RelativeToolTip": "WEB_253505_Bekarev.Blazor.SSR\\Components\\Pages\\Counter.razor",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T16:05:29.116Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -22,6 +60,71 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CounterModel.cs",
+              "DocumentMoniker": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev.Blazor.SSR\\Models\\CounterModel.cs",
+              "RelativeDocumentMoniker": "WEB_253505_Bekarev.Blazor.SSR\\Models\\CounterModel.cs",
+              "ToolTip": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev.Blazor.SSR\\Models\\CounterModel.cs",
+              "RelativeToolTip": "WEB_253505_Bekarev.Blazor.SSR\\Models\\CounterModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T16:04:38.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev.Blazor.SSR\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "WEB_253505_Bekarev.Blazor.SSR\\Components\\_Imports.razor",
+              "ToolTip": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev.Blazor.SSR\\Components\\_Imports.razor",
+              "RelativeToolTip": "WEB_253505_Bekarev.Blazor.SSR\\Components\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T15:58:14.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev.Blazor.SSR\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "WEB_253505_Bekarev.Blazor.SSR\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev.Blazor.SSR\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "WEB_253505_Bekarev.Blazor.SSR\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T15:57:30.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev.Blazor.SSR\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "WEB_253505_Bekarev.Blazor.SSR\\Components\\Routes.razor",
+              "ToolTip": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev.Blazor.SSR\\Components\\Routes.razor",
+              "RelativeToolTip": "WEB_253505_Bekarev.Blazor.SSR\\Components\\Routes.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T15:54:22.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev.Blazor.SSR\\Program.cs",
+              "RelativeDocumentMoniker": "WEB_253505_Bekarev.Blazor.SSR\\Program.cs",
+              "ToolTip": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev.Blazor.SSR\\Program.cs",
+              "RelativeToolTip": "WEB_253505_Bekarev.Blazor.SSR\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T15:37:48.597Z",
+              "EditorCaption": ""
             }
           ]
         }

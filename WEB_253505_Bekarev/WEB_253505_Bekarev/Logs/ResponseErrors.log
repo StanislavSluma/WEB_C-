@@ -48,3 +48,4 @@ System.InvalidOperationException: The AuthorizationPolicy named: 'admin' was not
    at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
    at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-26 18:59:53.097 +03:00 [ERR] request https://localhost:7001/WEB_253505_Bekarev.styles.css returns 404

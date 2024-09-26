@@ -12,7 +12,7 @@ namespace WEB_253505_Bekarev.Domain.Entities
         public string Name { get; set; }
         public string Description { get; set; }
         public Category? Category { get; set; }
-        public string? CategoryId { get; set; }
+        public int CategoryId { get; set; }
         public int SeriesAmount{ get; set; }
         public int SeriesTime { get; set; }
         public int TotalTime { get; set; }

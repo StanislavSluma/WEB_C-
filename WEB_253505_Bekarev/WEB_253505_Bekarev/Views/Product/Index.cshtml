@@ -1,7 +1,7 @@
 ﻿@model ListModel<Anime>
 @{
     ViewData["Title"] = "Index";
-    var categories = ViewBag.Categories;
+    var categories = ViewData["Categories"] as List<Category>;
     var current_cat = ViewData["current_category"];
     var request = ViewContext.HttpContext.Request;
     var current_category = request.Query["category"];
@@ -30,7 +30,6 @@
             CurrentPage = Model.CurrentPage,
             TotalPages = Model.TotalPages,
             Products = Model.Items,
-            Admin = false
         });
     }
 </body>

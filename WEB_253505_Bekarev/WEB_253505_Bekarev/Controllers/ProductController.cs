@@ -24,8 +24,10 @@ namespace WEB_253505_Bekarev.Controllers
             var productResponse = await _productService.GetProductListAsync(category, pageNo);
             if (!productResponse.Successfull)
                 return NotFound(productResponse.ErrorMessage);
-            var categories = (await _categoryService.GetCategoryListAsync()).Data;
-            ViewBag.Categories = categories;
+            var categoriesResponse = await _categoryService.GetCategoryListAsync();
+            if (!categoriesResponse.Successfull)
+                return NotFound(categoriesResponse.ErrorMessage);
+            ViewData["Categories"] = categoriesResponse.Data;
             ViewData["current_category"] = (await _categoryService.FromNormalizedNameAsync(category)).Data;
 
             if (Request.IsAjaxRequest())
@@ -33,7 +35,7 @@ namespace WEB_253505_Bekarev.Controllers
                 return PartialView("_ProductsPartial", new
                 {
                     CurrentCategory = category,
-                    Categories = categories,
+                    Categories = categoriesResponse.Data,
                     Products = productResponse.Data!.Items,
                     ReturnUrl = Request.Path + Request.QueryString.ToUriComponent(),
                     CurrentPage = productResponse.Data.CurrentPage,

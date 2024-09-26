@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OtV1XdKZxKyFTaueQbjCLiKoa4rZ16qHDeWdcdaoW04=",
+  "Hash": "oEqPqlWNB2UwA9GMjIt8p8Qhl2qGJKOPSlQv3w2Nu2o=",
   "Source": "WEB_253505_Bekarev.API",
   "BasePath": "_content/WEB_253505_Bekarev.API",
   "Mode": "Default",
@@ -167,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\vgp3onvd.jpg"
+    },
+    {
+      "Identity": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev.API\\wwwroot\\Images\\wfs2gvnj.jpg",
+      "SourceId": "WEB_253505_Bekarev.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev.API\\wwwroot\\",
+      "BasePath": "_content/WEB_253505_Bekarev.API",
+      "RelativePath": "Images/wfs2gvnj.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\wfs2gvnj.jpg"
     },
     {
       "Identity": "D:\\sem_5\\WEB_C#\\WEB_253505_Bekarev\\WEB_253505_Bekarev.API\\wwwroot\\Images\\yvlejp1c.jpg",

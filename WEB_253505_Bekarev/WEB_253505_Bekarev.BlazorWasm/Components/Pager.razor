@@ -1,0 +1,76 @@
+﻿﻿
+@inject IDataService dataService
+@implements IDisposable
+
+<div class="container">
+	﻿<nav aria-label="navigation px-2" style="max-width">
+		<ul class="pagination">
+			<li class="page-item">
+				<button class="btn btn-primary page-link" disabled="@IsFirstPage" @onclick="async () => await GoToPageAsync(CurrentPage - 1)">
+					&laquo;
+				</button>
+			</li>
+			@foreach (var pageNo in Enumerable.Range(1, TotalPages))
+			{
+				<li class="page-item">
+					<button class="btn btn-primary page-link @(pageNo == CurrentPage ? "active" : "")" @onclick="async () => await GoToPageAsync(pageNo)">@pageNo</button>
+				</li>
+			}
+			<li class="page-item">
+				<button class="btn btn-primary page-link" disabled="@IsLastPage" @onclick=" async () => await GoToPageAsync(CurrentPage + 1)">
+					&raquo;
+				</button>
+			</li>
+		</ul>
+	</nav>
+</div>
+
+
+@code {
+	[Parameter]
+	public int CurrentPage { get; set; }
+
+	[Parameter]
+	public int TotalPages { get; set; } = 1;
+
+	private bool IsFirstPage => CurrentPage == 1;
+	private bool IsLastPage => CurrentPage == TotalPages;
+
+	protected override async Task OnInitializedAsync()
+	{
+		dataService.DataLoaded += OnDataLoaded;
+		await LoadPageDataAsync();
+	}
+
+	private async Task LoadPageDataAsync()
+	{
+		await dataService.GetProductListAsync(dataService.SelectedCategory?.NormalizedName, CurrentPage);
+		UpdatePagerState();
+	}
+
+	private void UpdatePagerState()
+	{
+		CurrentPage = dataService.CurrentPage;
+		TotalPages = dataService.TotalPages;
+		StateHasChanged();
+	}
+
+	private void OnDataLoaded()
+	{
+		UpdatePagerState();
+	}
+
+	public void Dispose()
+	{
+		dataService.DataLoaded -= OnDataLoaded;
+	}
+
+	public async Task GoToPageAsync(int pageNo)
+	{
+		if (pageNo < 1 || pageNo > TotalPages) return;
+
+		CurrentPage = pageNo;
+		await dataService.GetProductListAsync(dataService.SelectedCategory?.NormalizedName, CurrentPage);
+		UpdatePagerState();
+	}
+}

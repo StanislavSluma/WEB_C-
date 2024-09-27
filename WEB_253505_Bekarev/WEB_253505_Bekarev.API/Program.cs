@@ -19,6 +19,7 @@ builder.Services.AddDbContext<AppDbContext>(opt => opt.UseSqlite(builder.Configu
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IAnimeService, AnimeService>();
 
+builder.Services.AddCors(b => b.AddPolicy("Blazor", pb => pb.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod()));
 
 
 var authServer = builder.Configuration
@@ -65,5 +66,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseCors("Blazor");
 
 app.Run();

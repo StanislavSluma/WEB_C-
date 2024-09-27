@@ -14,7 +14,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WEB_253505_Bekarev.API", "W
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WEB_Bekarev_253505.Tests", "WEB_Bekarev_253505.Tests\WEB_Bekarev_253505.Tests.csproj", "{F02C198A-3360-421F-8CC8-E013E60D1A97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEB_253505_Bekarev.Blazor.SSR", "WEB_253505_Bekarev.Blazor.SSR\WEB_253505_Bekarev.Blazor.SSR.csproj", "{EA8E8120-DFE4-47FA-9D05-97EBFBB448CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WEB_253505_Bekarev.Blazor.SSR", "WEB_253505_Bekarev.Blazor.SSR\WEB_253505_Bekarev.Blazor.SSR.csproj", "{EA8E8120-DFE4-47FA-9D05-97EBFBB448CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WEB_253505_Bekarev.BlazorWasm", "WEB_253505_Bekarev.BlazorWasm\WEB_253505_Bekarev.BlazorWasm.csproj", "{2D59E77C-E736-4010-9D94-A8D8E030C381}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +44,10 @@ Global
 		{EA8E8120-DFE4-47FA-9D05-97EBFBB448CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA8E8120-DFE4-47FA-9D05-97EBFBB448CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA8E8120-DFE4-47FA-9D05-97EBFBB448CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D59E77C-E736-4010-9D94-A8D8E030C381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D59E77C-E736-4010-9D94-A8D8E030C381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D59E77C-E736-4010-9D94-A8D8E030C381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D59E77C-E736-4010-9D94-A8D8E030C381}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

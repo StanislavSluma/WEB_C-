@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WEB_253505_Bekarev.Blazor.SSR")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97e0b7bcf866cf54521cb2d5a9ab6eb188353130")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1298efca4a218d3486149bbc552d4abd791e942e")]
 [assembly: System.Reflection.AssemblyProductAttribute("WEB_253505_Bekarev.Blazor.SSR")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WEB_253505_Bekarev.Blazor.SSR")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,38 @@
+﻿﻿
+@page "/catalog"
+@attribute [Authorize]
+@using Microsoft.AspNetCore.Authorization;
+
+<PageTitle>Catalog</PageTitle>
+<CategorySelector OnCategoryChanged="OnCategoryChanged"/>
+<AnimeList OnItemSelected="OnAnimeSelected" />
+<Pager CurrentPage="@dataService.CurrentPage" />
+<AnimeInfo SelectedItem="SelectedItem"/>
+
+@code {
+	[Inject]
+	public IDataService dataService { get; set; }
+
+	[Parameter]
+	public string? Category { get; set; }
+
+	public Anime? SelectedItem { get; set; }
+
+	protected override async Task OnInitializedAsync()
+	{
+		await dataService.GetProductListAsync(Category);
+	}
+
+	void OnAnimeSelected(int id)
+	{
+		SelectedItem = dataService.Animes.FirstOrDefault(c => c.Id == id);
+		StateHasChanged();
+	}
+
+	async void OnCategoryChanged(string normalizedName)
+	{
+		await dataService.GetProductListAsync(normalizedName);
+		dataService.CurrentPage = 1;
+		StateHasChanged();
+	}
+}

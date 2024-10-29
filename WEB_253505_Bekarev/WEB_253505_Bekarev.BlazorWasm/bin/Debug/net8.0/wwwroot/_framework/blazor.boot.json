@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "WEB_253505_Bekarev.BlazorWasm",
   "resources": {
-    "hash": "sha256-pEhhRL3Oydll6lZU3iWIROpUbWY63dv7y3qQq5EvsFU=",
+    "hash": "sha256-3ozkBG5KPTKBpc8fPzOnC0oOX74CvGwcjFj8X1xtvGI=",
     "jsModuleNative": {
       "dotnet.native.8.0.2.b5q3tcrhn8.js": "sha256-gPMK16QWoJSTxorlZJqcVtbBRTniIQWlLsJN2O4cJHg="
     },
@@ -217,11 +217,11 @@
       "netstandard.wasm": "sha256-ZOswxXEbR2TmqjpbaBEdgr85Bv1NC4GwOwoJ+oxXM3M=",
       "System.Private.CoreLib.wasm": "sha256-I2w0iHf5nvSQyF1YE1VbgdTzmmz6a4OE6J7vo5wFa/4=",
       "WEB_253505_Bekarev.Domain.wasm": "sha256-nQgPZX/vatcWSb8SXWs0Fuz/9DDINm5UTJjzZuZQfGo=",
-      "WEB_253505_Bekarev.BlazorWasm.wasm": "sha256-r0akWQVJrzJEO6TCEmZqc2FcdFxhtYGRu+6yXK+IsQg="
+      "WEB_253505_Bekarev.BlazorWasm.wasm": "sha256-XkUv2nNlv6EmY6YJmHXIy3dFMPXCPflLl0mhtuQLKZY="
     },
     "pdb": {
       "WEB_253505_Bekarev.Domain.pdb": "sha256-OOAxxHIRX2eyes+WsGz5W/M9HFkqjx3pAKGoKfyHJo8=",
-      "WEB_253505_Bekarev.BlazorWasm.pdb": "sha256-+Hrj0YZrlL4OX9moDudLbcU7dzTCWcRXadKwJ+EYG68="
+      "WEB_253505_Bekarev.BlazorWasm.pdb": "sha256-lHJM/IUrJc41JH/YWmhrWACf1ys9SDHijAcvjTnXqFI="
     }
   },
   "cacheBootResources": true,
